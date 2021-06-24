@@ -1,0 +1,46 @@
+ASSIGNMENT:CSS
+
+1. Explain the basic rules of CSS specificity
+
+CSS Specificity is the set of the rules applied to CSS selectors in order to determine which style
+is applied to an element.If there are two or more conflicting CSS rules that point to the same element,
+the browser follows some rules to determine which one is most specific and therefore wins out.
+
+2. Explain the three main ways to CSS sytle to a website.
+
+The three main ways are;
+a). External Styles:
+ External CSS contains separate CSS file which contains only style property with the help of tag 
+ attributes (For example class, id, heading, … etc). CSS property written in a separate file with .css extension and 
+ should be linked to the HTML document using link tag. This means that for each element, style can be set only once and 
+ that will be applied across web pages. this is done using a <link> element  
+
+
+b). Internal Styles: 
+ This can be used when a single HTML document must be styled uniquely. The CSS rule set should be within the HTML 
+ file in the head section i.e the CSS is embedded within the HTML file. 
+ It requires you to add <style> tag in the <head> section of your HTML document.
+
+c).Inline Sytles:
+ Inline CSS contains the CSS property in the body section attached with element is known as inline CSS. 
+ This kind of style is specified within an HTML tag using the style attribute.
+ Inline CSS is used to style a specific HTML element. For this CSS style, you’ll only need to add the style attribute 
+ to each HTML tag, without using selectors.
+
+
+3.Explain the three ways to target an element.
+
+  The three ways to target an HTML element using CSS are:
+
+  Type Selector:A type selector matches the name of a document language element type.
+  A type selector matches every instance of the element type in the document tree. Styles are specified only once 
+  for an HTML element and are applied to all the occurrences of that element
+
+
+  ID Selector:The id selector uses the id attribute of an HTML element to select a specific element.
+  The id of an element is unique within a page, so the id selector is used to select one unique element!
+  To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+  Class Selecor:The class selector selects HTML elements with a specific class attribute.To select elements with 
+  a specific class, write a period (.) character, followed by the class name.	
+ 
